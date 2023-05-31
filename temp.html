@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="tempe.css">
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="converter">
+        enter degree : <input type="number" id="inputTemp" placeholder="Enter temperature">
+        <br><br>
+        select type : <select id="inputUnit">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <br><br>
+        select type : <select id="outputUnit">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select><br>
+        <button onclick="convert()">Convert</button><br>
+        Result : <input type="text" id="outputTemp" placeholder="Converted temperature" readonly>
+    </div>
+    <script src="tem.js"></script>
+</body>
+</html>

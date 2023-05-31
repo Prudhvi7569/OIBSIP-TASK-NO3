@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #7fffd4;
+
+}
+
+h1 {
+    color: #333;
+}
+
+.converter {
+    margin: 20px auto;
+    width: 300px;
+}
+
+input[type="number"], select {
+    width: 100px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: hsl(246, 93%, 47%);
+    color: #fff;
+    border: none;
+    size: 30px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+}
